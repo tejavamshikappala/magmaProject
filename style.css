@@ -69,6 +69,7 @@ body {
     font-family: a;
     font-size: 15px;
 }
+
 @media screen and (max-width:576px){
     #right-nav>.bttn {
         display: none;
@@ -86,6 +87,24 @@ body {
                
 }
 
+@media screen and (max-width:776px){
+    #page1{
+        height:90vh
+    }
+    #right-nav>.bttn {
+            display: none;
+        }
+    #right-nav>button {
+                     padding: 0px 0px;
+                     border: none;
+                     background-color: transparent;
+                     margin-top: 10px;
+                     font-size: 18px;
+                 }
+        #page1>nav>img {
+            width: 11vmax
+        }
+}
 
 
 .bottom-page1{
